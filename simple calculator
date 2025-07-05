@@ -1,0 +1,34 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main(){
+  int a,b;
+  char op;
+  cout<<"enter the value of a"<<endl;
+  cin>>a;
+  cout <<"enter the value of b"<<endl;
+  cin>>b;
+  cout<<"enter operator"<<endl;
+  cin>>op;
+  if(op == '+'){
+    cout<<"the sum is "<<a+b<<endl;
+  }
+  else if(op == '-'){
+    cout<<"the subtration is "<<a-b<<endl;
+  }
+   else if(op == '*'){
+    cout<<"the product is "<<a*b<<endl;
+}
+ else if(op == '/'){
+     if(b!=0){
+    cout<<"the division is "<<a/b<<endl;
+     }
+     else{
+         cout<<"invalid division";
+     }
+ }
+ else{
+   cout<<"wrong case";
+ }
+}
