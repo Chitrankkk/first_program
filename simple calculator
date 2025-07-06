@@ -14,10 +14,10 @@ int main(){
   if(op == '+'){
     cout<<"the sum is "<<a+b<<endl;
   }
-  else if(op == '-'){
+ else if(op == '-'){
     cout<<"the subtration is "<<a-b<<endl;
   }
-   else if(op == '*'){
+ else if(op == '*'){
     cout<<"the product is "<<a*b<<endl;
 }
  else if(op == '/'){
@@ -28,7 +28,10 @@ int main(){
          cout<<"invalid division";
      }
  }
+ else if(op == '%'){
+     cout<<"the modular is "<<a%b<<endl;
+ }
  else{
-   cout<<"wrong case";
+   cout<<"Invalid case";
  }
 }
